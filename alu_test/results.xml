@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1735236189" />
-    <testcase name="alu_full_operations" classname="test_script" file="/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/test_script.py" lineno="20" time="0.5484213829040527" sim_time_ns="10000.001" ratio_time="18234.155909543588" />
+    <property name="random_seed" value="1735279506" />
+    <testcase name="alu_full_operations" classname="test_script" file="/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/test_script.py" lineno="20" time="4.849321365356445" sim_time_ns="100000.001" ratio_time="20621.442355707764" />
   </testsuite>
 </testsuites>
