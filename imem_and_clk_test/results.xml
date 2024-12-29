@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1735479439" />
+    <testcase name="test_random_instructions" classname="instr_generator" file="/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/imem_and_clk_test/instr_generator.py" lineno="33" time="0.003095388412475586" sim_time_ns="115.001" ratio_time="37152.36496218132" />
+  </testsuite>
+</testsuites>
