@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1735750781" />
-    <testcase name="test_instruction_results" classname="random_instr_generator" file="/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/riscv_test/random_instr_generator.py" lineno="32" time="0.0019309520721435547" sim_time_ns="30.001" ratio_time="15536.895209778986" />
+    <property name="random_seed" value="1735921092" />
+    <testcase name="test_instruction_results" classname="random_instr_generator" file="/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/riscv_test/random_instr_generator.py" lineno="59" time="0.003854990005493164" sim_time_ns="180.001" ratio_time="46692.987463912425" />
   </testsuite>
 </testsuites>
