@@ -1,0 +1,27 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.48+47 (git sha1 cbb95cb51, clang++ 14.0.6 -fPIC -O3)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: alu.v
+Parsing formal SystemVerilog input from `alu.v' to AST representation.
+Storing AST representation for module `$abstract\alu'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: alu_tb.v
+Parsing formal SystemVerilog input from `alu_tb.v' to AST representation.
+Storing AST representation for module `$abstract\alu_tb'.
+Successfully finished Verilog frontend.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\alu_tb'.
+Generating RTLIL representation for module `\alu_tb'.
+alu_tb.v:61: ERROR: System task `$finish' executed.

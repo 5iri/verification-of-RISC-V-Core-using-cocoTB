@@ -1,0 +1,9 @@
+# running in alu/src/
+read -formal alu.v
+read -formal alu_tb.v
+prep -top alu_tb
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

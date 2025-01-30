@@ -1,0 +1,13 @@
+SBY 23:54:38 [alu] Removing directory '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu'.
+SBY 23:54:38 [alu] Copy '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu.v' to '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu/src/alu.v'.
+SBY 23:54:38 [alu] Copy '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu_tb.v' to '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu/src/alu_tb.v'.
+SBY 23:54:38 [alu] engine_0: smtbmc
+SBY 23:54:38 [alu] base: starting process "cd alu/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 23:54:38 [alu] base: alu_tb.v:61: ERROR: System task `$finish' executed.
+SBY 23:54:38 [alu] base: finished (returncode=1)
+SBY 23:54:38 [alu] base: task failed. ERROR.
+SBY 23:54:38 [alu] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:54:38 [alu] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:54:38 [alu] summary: engine_0 (smtbmc) did not return a status
+SBY 23:54:38 [alu] summary: engine_0 did not produce any traces
+SBY 23:54:38 [alu] DONE (ERROR, rc=16)

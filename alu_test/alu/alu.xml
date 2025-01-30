@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2025-01-30T23:54:38" hostname="lazybanana" package="alu" id="0" name="default" tests="1" errors="1" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="ERROR"/>
+</properties>
+<testcase classname="default" name="default" time="0">
+<error type="ERROR"/>
+</testcase>
+<system-out>SBY 23:54:38 [alu] Removing directory '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu'.
+SBY 23:54:38 [alu] Copy '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu.v' to '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu/src/alu.v'.
+SBY 23:54:38 [alu] Copy '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu_tb.v' to '/home/lazybanana/Documents/GitHub/verification-of-RISC-V-Core-using-cocoTB/alu_test/alu/src/alu_tb.v'.
+SBY 23:54:38 [alu] engine_0: smtbmc
+SBY 23:54:38 [alu] base: starting process &quot;cd alu/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 23:54:38 [alu] base: alu_tb.v:61: ERROR: System task `$finish' executed.
+SBY 23:54:38 [alu] base: finished (returncode=1)
+SBY 23:54:38 [alu] base: task failed. ERROR.
+SBY 23:54:38 [alu] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:54:38 [alu] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:54:38 [alu] summary: engine_0 (smtbmc) did not return a status
+SBY 23:54:38 [alu] summary: engine_0 did not produce any traces
+SBY 23:54:38 [alu] DONE (ERROR, rc=16)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+[options]
+mode prove
+depth 200
+
+[engines]
+smtbmc
+
+[script]
+read -formal alu.v
+read -formal alu_tb.v
+prep -top alu_tb
+
+[files]
+alu.v
+alu_tb.v
+
